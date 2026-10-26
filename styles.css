@@ -1,0 +1,51 @@
+body {
+  margin: 2rem;
+  font-family: Arial, sans-serif;
+  color: #023520;
+  background: #dcffa4;
+}
+
+main {
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  background: #dcffa4;
+}
+
+label {
+  flex-basis: 100%;
+  background: #dcffa4;
+}
+
+input,
+button {
+  padding: 0.6rem;
+  font: inherit;
+  border: 1px solid #000000;
+  border-radius: 0.75rem;
+  background: rgb(29, 144, 179);
+}
+
+.profile-card {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  border: 1px solid #000000;
+  border-radius: 0.75rem;
+  background: rgb(29, 144, 179);
+}
+
+.profile-card img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.profile-card h2 {
+  margin-bottom: 0.25rem;
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+  </head>
+  <body>
+
+    <main>
+    <h1 class="text-3xl font-bold text-emerald-950">Github User Lookup</h1>
+
+    <form id="user-lookup">
+    <label for= "username" class= "m-4 rounded-2xl text-lg font-bold text-emerald-700 ">Enter GitHub Username</label>
+    <input id="username" name="username" type="text" required class="border-2 p-2">
+    <button id="submit" class="border px-3 py-1 rounded-lg">Look up</button>
+    </form>
+     <p id="status" role="status" ></p>
+      <div id="profile-result"></div>
+</main>
+    <script src="script.js"></script>
+  </body>
+</html>
